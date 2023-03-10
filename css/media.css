@@ -1,0 +1,62 @@
+/* start home media */
+@media screen and (max-width:767px){
+    .navbar-collapse{
+        background-color: #fff ;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: var(--main-color) !important;
+        margin: 5px 0;
+    }
+    .home .navbar-nav .nav-item .nav-link::after {
+        background-color: var(--main-color) !important;
+        left: 45% !important;
+    }
+    .alert h1 span{
+        font-size: 29px !important;
+    }
+}
+@media screen and (max-width:499px) {
+    .home .navbar-nav .nav-item .nav-link::after {
+        left: 43% !important;
+    }
+}
+@media screen and (max-width:991px) and (min-width:767px){
+    .home .navbar-nav .nav-item .nav-link{
+        font-size: 13px !important;
+    }
+    .home .navbar-nav .nav-item{
+        margin-left: 20px !important;
+    }
+    .home .navbar-nav .nav-item .active::after{
+        width: 40px !important;
+    }
+}
+/* end home media */
+/* ********************************************************/
+/* start about media */
+@media screen and (max-width:575px) {
+    .about .row .text{
+        margin-top: 50px;
+    }
+    .about .row .col-image{
+        padding-left: 40px !important;
+    }
+}
+@media screen and (max-width:767px) {
+    .contact form .button{
+        width: 160%;
+    }
+}
+/* end about media */
+/* ********************************************************/
+/* start protfolio media */
+@media screen and (max-width:499px) {
+    .nav-pills .nav-link{
+        margin-right: 30px !important;
+    }
+}
+/* end protfolio media */
+/* ********************************************************/
