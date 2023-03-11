@@ -31,7 +31,7 @@ $(window).ready(function(){
         $(".nav-link").parent().siblings().children().removeClass("active")
     })
     new Typed('#typing', {
-        strings: [ `I'm Jerry Daniels.`,`Frontend Developer.`],
+        strings: [ `I'm Mohamed Maher.`,`Frontend Developer.`],
         typeSpeed: 100,
         loop: true,
         backSpeed: 100
